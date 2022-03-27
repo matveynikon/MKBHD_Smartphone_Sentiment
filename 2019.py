@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from textblob import TextBlob
 
 DEEPGRAM_API_KEY = 'your key'
-reviews = ["19-20/Google Pixel 3 XL Review_ The Shadow of the Notch! (128 kbps).mp3","19-20/Apple iPhone Xs Review_ A (S)mall Step Up! (128 kbps).mp3","19-20/iPhone XR Review_ No Need to Panic! (128 kbps).mp3","19-20/Samsung Galaxy S9 Review_ The Perfect... Samsung! (128 kbps).mp3","19-20/Samsung Galaxy S10e Review_ Why Not_ (128 kbps).mp3","19-20/Samsung Galaxy Note 9 Review_ The Total Package! (128 kbps).mp3","19-20/Samsung Galaxy S10+ Review_ The Bar is Set! (128 kbps).mp3"]
+reviews = ["2019/Google Pixel 3 XL Review_ The Shadow of the Notch! (128 kbps).mp3","2019/Apple iPhone Xs Review_ A (S)mall Step Up! (128 kbps).mp3","2019/iPhone XR Review_ No Need to Panic! (128 kbps).mp3","2019/Samsung Galaxy S9 Review_ The Perfect... Samsung! (128 kbps).mp3","2019/Samsung Galaxy S10e Review_ Why Not_ (128 kbps).mp3","2019/Samsung Galaxy Note 9 Review_ The Total Package! (128 kbps).mp3","2019/Samsung Galaxy S10+ Review_ The Bar is Set! (128 kbps).mp3"]
 async def main():
     sents = []
     ts = []
@@ -33,16 +33,16 @@ async def main():
     print("Apple: "+str(ts[1]))
     print("Samsung: "+str(ts[2]))
     if ts.index(max(ts)) == 0:
-        print("Favorite brand of the year: Google") 
+        print("Favorite brand of the year: Google\n") 
     elif ts.index(max(ts)) == 1:
-        print("Favorite brand of the year: Apple") 
+        print("Favorite brand of the year: Apple\n") 
     else:
         print("Favorite brand of the year: Samsung\n")
     plt.rc('xtick', labelsize=7)
     plt.bar(y_pos, performance, align='center', alpha=1)
     plt.xticks(y_pos, r2, rotation=60)
     plt.ylabel('Sentiment')
-    plt.title('Smartphone Reviews (2019-2020)')
+    plt.title('Smartphone Reviews (2019)')
 
     plt.show()
 
