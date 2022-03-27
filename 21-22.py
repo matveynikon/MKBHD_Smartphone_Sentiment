@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from textblob import TextBlob
 
 DEEPGRAM_API_KEY = 'your key'
-reviews = ["y1/Google Pixel 5 Review_ Software Special! (128 kbps).mp3", "y1/Google Pixel 5A_ Spot the Difference! (128 kbps).mp3", "y1/Google Pixel 4a Review_ Simple and Clean! (128 kbps).mp3", "y1/Pixel 6_6 Pro Review_ Almost Incredible! (128 kbps).mp3", "y1/iPhone 12 Review_ Just Got Real! (128 kbps).mp3", "y1/iPhone 12 Pro Review_ You Sure About That_ (128 kbps).mp3", "y1/iPhone 12 Mini Review_ Tiny Tradeoffs! (128 kbps).mp3", "y1/iPhone 13 Pro Review_ Better Than You Think! (128 kbps).mp3", "y1/iPhone 13 Review_ Lowkey Great! (128 kbps).mp3", "y1/Samsung Z Flip 3 Review_ The First Big Step! (128 kbps).mp3", "y1/Samsung Z Fold 3 Review_ Let's Talk Ambition! (128 kbps).mp3", "y1/Galaxy S21 Review_ Would You Notice_ (128 kbps).mp3"]
+reviews = ["21-22/Google Pixel 5 Review_ Software Special! (128 kbps).mp3", "21-22/Google Pixel 5A_ Spot the Difference! (128 kbps).mp3", "21-22/Google Pixel 4a Review_ Simple and Clean! (128 kbps).mp3", "21-22/Pixel 6_6 Pro Review_ Almost Incredible! (128 kbps).mp3", "21-22/iPhone 12 Review_ Just Got Real! (128 kbps).mp3", "21-22/iPhone 12 Pro Review_ You Sure About That_ (128 kbps).mp3", "21-22/iPhone 12 Mini Review_ Tiny Tradeoffs! (128 kbps).mp3", "21-22/iPhone 13 Pro Review_ Better Than You Think! (128 kbps).mp3", "21-22/iPhone 13 Review_ Lowkey Great! (128 kbps).mp3", "21-22/Samsung Z Flip 3 Review_ The First Big Step! (128 kbps).mp3", "21-22/Samsung Z Fold 3 Review_ Let's Talk Ambition! (128 kbps).mp3", "21-22/Galaxy S21 Review_ Would You Notice_ (128 kbps).mp3"]
 async def main():
     sents = []
     ts = []
