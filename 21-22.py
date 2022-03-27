@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 from textblob import TextBlob
 
 DEEPGRAM_API_KEY = 'your key'
-reviews = ["21-22/Google Pixel 5 Review_ Software Special! (128 kbps).mp3", "21-22/Google Pixel 5A_ Spot the Difference! (128 kbps).mp3", "21-22/Google Pixel 4a Review_ Simple and Clean! (128 kbps).mp3", "21-22/Pixel 6_6 Pro Review_ Almost Incredible! (128 kbps).mp3", "21-22/iPhone 12 Review_ Just Got Real! (128 kbps).mp3", "21-22/iPhone 12 Pro Review_ You Sure About That_ (128 kbps).mp3", "21-22/iPhone 12 Mini Review_ Tiny Tradeoffs! (128 kbps).mp3", "21-22/iPhone 13 Pro Review_ Better Than You Think! (128 kbps).mp3", "21-22/iPhone 13 Review_ Lowkey Great! (128 kbps).mp3", "21-22/Samsung Z Flip 3 Review_ The First Big Step! (128 kbps).mp3", "21-22/Samsung Z Fold 3 Review_ Let's Talk Ambition! (128 kbps).mp3", "21-22/Galaxy S21 Review_ Would You Notice_ (128 kbps).mp3"]
+reviews = ["21-22/Google Pixel 5 Review_ Software Special! (128 kbps).mp3", "21-22/Google Pixel 5A_ Spot the Difference! (128 kbps).mp3", "21-22/Google Pixel 4a Review_ Simple and Clean! (128 kbps).mp3", "21-22/iPhone 12 Review_ Just Got Real! (128 kbps).mp3", "21-22/iPhone 12 Pro Review_ You Sure About That_ (128 kbps).mp3", "21-22/iPhone 12 Mini Review_ Tiny Tradeoffs! (128 kbps).mp3", "21-22/iPhone 13 Pro Review_ Better Than You Think! (128 kbps).mp3", "21-22/iPhone 13 Review_ Lowkey Great! (128 kbps).mp3", "21-22/Samsung Z Flip 3 Review_ The First Big Step! (128 kbps).mp3", "21-22/Samsung Z Fold 3 Review_ Let's Talk Ambition! (128 kbps).mp3", "21-22/Galaxy S21 Review_ Would You Notice_ (128 kbps).mp3"]
 async def main():
     sents = []
     ts = []
-    r2 = ["Pixel 5", "Pixel 5A", "Pixel 4a", "Pixel 6_6 Pro", "iPhone 12", "iPhone 12 Pro", "iPhone 12 Mini", "iPhone 13 Pro", "iPhone 13", "Z Flip 3", "Z Fold 3", "Galaxy S21"]
+    r2 = ["Pixel 5", "Pixel 5A", "Pixel 4a", "iPhone 12", "iPhone 12 Pro", "iPhone 12 Mini", "iPhone 13 Pro", "iPhone 13", "Z Flip 3", "Z Fold 3", "Galaxy S21"]
     for i in range(len(reviews)):
         PATH_TO_FILE = reviews[i]
         deepgram = Deepgram(DEEPGRAM_API_KEY)
