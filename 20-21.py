@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from textblob import TextBlob
 
-DEEPGRAM_API_KEY = '32a59470034fea3fe30231e6d3a43fc65c44df91'
+DEEPGRAM_API_KEY = 'your key'
 reviews = ["y2/Google Pixel 3a Review_ A for Ace! (128 kbps).mp3", "y2/Google Pixel 4 Review_ Inside the Hype Machine! (128 kbps).mp3", "y2/Samsung Galaxy S20 Ultra Review_ Attack of the Numbers! (128 kbps).mp3", "y2/Galaxy S20 Impressions_ New Year, New Samsung! (128 kbps).mp3", "y2/iPhone 11 Pro Review_ For the Love of Cameras! (128 kbps).mp3", "y2/iPhone 11 Review_ Too Easy! (128 kbps) (1).mp3", "y2/Samsung Galaxy Note 10+ Review_ The Favorite Child! (128 kbps).mp3"]
 async def main():
     sents = []
@@ -25,10 +25,9 @@ async def main():
             sents.append(float(round(sentiment.sentiment.polarity*100, 2)))
     y_pos = np.arange(len(r2))
     performance = sents
-    print(sents)
     ts.append((sents[0]+sents[1])/2)
     ts.append((sents[2]+sents[3])/2)
-    ts.append((sents[4]+sents[5]+sents[6]+sents[7])/4)
+    ts.append((sents[4]+sents[5]+sents[6])/3)
     print("\nAverage smartphone sentiment for each brand:")
     print("Google: "+str(ts[0]))
     print("Apple: "+str(ts[1]))
@@ -43,7 +42,7 @@ async def main():
     plt.bar(y_pos, performance, align='center', alpha=1)
     plt.xticks(y_pos, r2, rotation=60)
     plt.ylabel('Sentiment')
-    plt.title('Smartphone Reviews (2019-2020)')
+    plt.title('Smartphone Reviews (2020-2021)')
 
     plt.show()
 
