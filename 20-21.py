@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from textblob import TextBlob
 
 DEEPGRAM_API_KEY = 'your key'
-reviews = ["y2/Google Pixel 3a Review_ A for Ace! (128 kbps).mp3", "y2/Google Pixel 4 Review_ Inside the Hype Machine! (128 kbps).mp3", "y2/Samsung Galaxy S20 Ultra Review_ Attack of the Numbers! (128 kbps).mp3", "y2/Galaxy S20 Impressions_ New Year, New Samsung! (128 kbps).mp3", "y2/iPhone 11 Pro Review_ For the Love of Cameras! (128 kbps).mp3", "y2/iPhone 11 Review_ Too Easy! (128 kbps) (1).mp3", "y2/Samsung Galaxy Note 10+ Review_ The Favorite Child! (128 kbps).mp3"]
+reviews = ["20-21/Google Pixel 3a Review_ A for Ace! (128 kbps).mp3", "20-21/Google Pixel 4 Review_ Inside the Hype Machine! (128 kbps).mp3", "20-21/Samsung Galaxy S20 Ultra Review_ Attack of the Numbers! (128 kbps).mp3", "20-21/Galaxy S20 Impressions_ New Year, New Samsung! (128 kbps).mp3", "20-21/iPhone 11 Pro Review_ For the Love of Cameras! (128 kbps).mp3", "20-21/iPhone 11 Review_ Too Easy! (128 kbps) (1).mp3", "20-21/Samsung Galaxy Note 10+ Review_ The Favorite Child! (128 kbps).mp3"]
 async def main():
     sents = []
     ts = []
