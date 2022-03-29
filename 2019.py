@@ -7,10 +7,10 @@ from textblob import TextBlob
 
 DEEPGRAM_API_KEY = 'your key'
 reviews = ["2019/Google Pixel 3 XL Review_ The Shadow of the Notch! (128 kbps).mp3","2019/Apple iPhone Xs Review_ A (S)mall Step Up! (128 kbps).mp3","2019/iPhone XR Review_ No Need to Panic! (128 kbps).mp3","2019/Samsung Galaxy S9 Review_ The Perfect... Samsung! (128 kbps).mp3","2019/Samsung Galaxy S10e Review_ Why Not_ (128 kbps).mp3","2019/Samsung Galaxy Note 9 Review_ The Total Package! (128 kbps).mp3","2019/Samsung Galaxy S10+ Review_ The Bar is Set! (128 kbps).mp3"]
+r2 = ["Pixel 3 XL","iPhone Xs","iPhone XR","Galaxy S9","Galaxy S10e","Galaxy Note 9","Galaxy S10+"]
 async def main():
     sents = []
     ts = []
-    r2 = ["Pixel 3 XL","iPhone Xs","iPhone XR","Galaxy S9","Galaxy S10e","Galaxy Note 9","Galaxy S10+"]
     for i in range(len(reviews)):
         PATH_TO_FILE = reviews[i]
         deepgram = Deepgram(DEEPGRAM_API_KEY)
