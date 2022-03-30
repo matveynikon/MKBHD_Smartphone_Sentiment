@@ -34,9 +34,7 @@ Here's the chart of Marques Brownlee's sentiment towards the smartphones he revi
 Average smartphone sentiment for each brand:
 
 Google: 20.05
-
 Apple: 14.89
-
 Samsung: 18.53
 
 
