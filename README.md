@@ -32,12 +32,18 @@ Here's the chart of Marques Brownlee's sentiment towards the smartphones he revi
 ![2019](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qwaianv5nq4aejxadark.png)
 
 Average smartphone sentiment for each brand:
+
 Google: 20.05
+
 Apple: 14.89
+
 Samsung: 18.53
 
+
 Favorite smartphone: Galaxy Note 9
+
 Least favorite smartphone: Galaxy S10e
+
 
 ### Analysis on Reviews from 2020
 
@@ -45,12 +51,18 @@ Here's the chart of Marques Brownlee's sentiment towards the smartphones he revi
 ![2020](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wmrbzgi8i89ztb38wh4s.png)
 
 Average smartphone sentiment for each brand:
+
 Google: 17.14
+
 Apple: 14.75
+
 Samsung: 16.47
 
+
 Favorite smartphone: Galaxy Note 10+
+
 Least favorite smartphone: Iphone 11
+
 
 ### Analysis on Reviews from 2021
 
@@ -58,12 +70,18 @@ Here's the chart of Marques Brownlee's sentiment towards the smartphones he revi
 ![2021](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x2i7wfqulxt7uw3lct15.png)
 
 Average smartphone sentiment for each brand:
+
 Google: 17.26
+
 Apple: 17.84
+
 Samsung: 17.36
 
+
 Favorite smartphone: Pixel 6/6 Pro
+
 Least favorite smartphone: Galaxy S21 Ultra
+
 
 ### Marques' Brand Sentiment Over the Last 3 Years
 
