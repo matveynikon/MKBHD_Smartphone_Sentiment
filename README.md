@@ -6,15 +6,12 @@ Marques Reviews a few different brands but I've chosen the ones that have been r
 
 I know what you might be thinking: "But sentiment analysis isn't very accurate and can make misjudgments on someone's sentiment towards something such as a smartphone!". I know that Sentiment Analysis has it's limitations.
 ![Meme haha](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ru8zrdzhlwoqia8x6y1l.png)
+
 Nevertheless, I've used the best Sentiment Analysis Library in my experience to try and programmatically make the best assessment of his reviews.
-
-****************
-
-####Submission Category: Analytics Ambassadors
 
 ***************
 
-##Building the App 🛠
+## Building the App 🛠
 
 The app uses 3 scripts to perform sentiment analysis on Marques' smartphone reviews from each year.
 
@@ -25,11 +22,11 @@ Each script does the following:
 
 The reason why I made 3 different scripts analyze smartphone reviews from 3 years separately is because I felt that the bar for a great smartphone raises every year, so it wouldn't be fair to compare an Iphone review from say 2019 to an Iphone review from 2021.
 
-##The Analysis
+## The Analysis
 
 Here's the analysis that my python scripts have performed!
 
-###Analysis on Reviews from 2019
+### Analysis on Reviews from 2019
 
 Here's the chart of Marques Brownlee's sentiment towards the smartphones he reviewed in 2019:
 ![2019](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qwaianv5nq4aejxadark.png)
@@ -42,7 +39,7 @@ Samsung: 18.53
 Favorite smartphone: Galaxy Note 9
 Least favorite smartphone: Galaxy S10e
 
-###Analysis on Reviews from 2020
+### Analysis on Reviews from 2020
 
 Here's the chart of Marques Brownlee's sentiment towards the smartphones he reviewed in 2020:
 ![2020](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wmrbzgi8i89ztb38wh4s.png)
@@ -55,7 +52,7 @@ Samsung: 16.47
 Favorite smartphone: Galaxy Note 10+
 Least favorite smartphone: Iphone 11
 
-###Analysis on Reviews from 2021
+### Analysis on Reviews from 2021
 
 Here's the chart of Marques Brownlee's sentiment towards the smartphones he reviewed in 2021:
 ![2021](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x2i7wfqulxt7uw3lct15.png)
@@ -68,14 +65,14 @@ Samsung: 17.36
 Favorite smartphone: Pixel 6/6 Pro
 Least favorite smartphone: Galaxy S21 Ultra
 
-###Marques' Brand Sentiment Over the Last 3 Years
+### Marques' Brand Sentiment Over the Last 3 Years
 
 Here's Marques Brownlee's smartphone brands ranked by average product sentiment:
 1. Google(54.45)
 2. Samsung(52.36)
 3. Apple(47.48)
 
-##Conclusion
+## Conclusion
 
 Anyway, I hope that you found this DeepGram project pretty cool!
 Byeee👋
