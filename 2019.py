@@ -28,6 +28,8 @@ async def main():
     ts.append(sents[0])
     ts.append((sents[1]+sents[2])/2)
     ts.append((sents[3]+sents[4]+sents[5]+sents[6])/4)
+    print("\nFavorite smartphone of the year: "+str(r2[sents.index(max(sents))]))
+    print("\nLeast favorite smartphone of the year: "+str(r2[sents.index(min(sents))]))
     print("\nAverage smartphone sentiment for each brand:")
     print("Google: "+str(ts[0]))
     print("Apple: "+str(ts[1]))
