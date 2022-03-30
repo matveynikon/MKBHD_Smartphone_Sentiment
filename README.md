@@ -1,4 +1,4 @@
-For this Hackathon, I wanted to explore audio based Sentiment Analysis using DeepGram. I wanted to use DeepGram to transcribe pieces of audio, and then use a Sentiment Analysis library to analyze the transcribed texts in terms of their sentiment.
+I wanted to explore audio based Sentiment Analysis using DeepGram. I wanted to use DeepGram to transcribe pieces of audio, and then use a Sentiment Analysis library to analyze the transcribed texts in terms of their sentiment.
 
 I did a bit of thinking about what pieces of audio I'm going to perform sentiment analysis on and decided that it would be a good idea to make a Python app that performs sentiment analysis on [Marques Brownlee](https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ)'s 
 smartphone reviews from the past 3 years to find, each year, what smartphones he liked, what smartphones he didn't like as much, as well as his sentiment towards the different smartphone brands.
